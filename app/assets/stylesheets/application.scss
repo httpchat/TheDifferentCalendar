@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.wday {
+  margin-bottom: 8px;
+
+  &__name {
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-bottom: .5em;
+  }
+
+  &__bar {
+    flex: 1 0 0;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 2em;
+    overflow: hidden;
+  }
+
+  &__slot {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto;
+    line-height: 2;
+
+    &--empty {
+      border-left: 2px solid #ccc;
+    }
+  }
+}
+
+[data-remaining="1"] {
+  background-color: #F44336;
+}
+[data-remaining="2"] {
+  background-color: #EF4836;
+}
+[data-remaining="3"] {
+  background-color: #EA4E37;
+}
+[data-remaining="4"] {
+  background-color: #E55438;
+}
+[data-remaining="5"] {
+  background-color: #E05A39;
+}
+[data-remaining="6"] {
+  background-color: #DC603A;
+}
+[data-remaining="7"] {
+  background-color: #D7653B;
+}
+[data-remaining="8"] {
+  background-color: #D26B3C;
+}
+[data-remaining="9"] {
+  background-color: #CD713D;
+}
+[data-remaining="10"] {
+  background-color: #C9773E;
+}
+[data-remaining="11"] {
+  background-color: #C47D3F;
+}
+[data-remaining="12"] {
+  background-color: #BF8340;
+}
+[data-remaining="13"] {
+  background-color: #BA8840;
+}
+[data-remaining="14"] {
+  background-color: #B58E41;
+}
+[data-remaining="15"] {
+  background-color: #B19442;
+}
+[data-remaining="16"] {
+  background-color: #AC9A43;
+}
+[data-remaining="17"] {
+  background-color: #A7A044;
+}
+[data-remaining="18"] {
+  background-color: #A2A545;
+}
+[data-remaining="19"] {
+  background-color: #9EAB46;
+}
+[data-remaining="20"] {
+  background-color: #99B147;
+}
+[data-remaining="21"] {
+  background-color: #94B748;
+}
+[data-remaining="22"] {
+  background-color: #8FBD49;
+}
+[data-remaining="23"] {
+  background-color: #8BC34A;
+}
+[data-remaining="24"] {
+  background-color: #8BC34A;
+}
